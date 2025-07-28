@@ -29,6 +29,13 @@ const Index = () => {
       {/* Hero Section */}
       <section id="home" className="py-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div className="relative">
+            <img 
+              src="https://cdn.poehali.dev/files/75d1cd88-ef65-488e-a9ef-a5880d1a449e.png"
+              alt="Заводчик с абиссинской кошкой"
+              className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
+            />
+          </div>
           <div>
             <h1 className="text-5xl font-bold text-gray-900 mb-4">
               Питомник абиссинских кошек
@@ -41,13 +48,6 @@ const Index = () => {
             <Button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 text-lg">
               Посмотреть котят
             </Button>
-          </div>
-          <div className="relative">
-            <img 
-              src="https://cdn.poehali.dev/files/75d1cd88-ef65-488e-a9ef-a5880d1a449e.png"
-              alt="Заводчик с абиссинской кошкой"
-              className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
-            />
           </div>
         </div>
       </section>
